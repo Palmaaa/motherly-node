@@ -1,6 +1,4 @@
 import { Request, Response } from 'express'
-import { getRepository } from 'typeorm';
-import User from '../../../useCases/User/models/User';
 
 import UserRepository from '../../../useCases/User/repositories/UserRepository';
 import ShowUserService from '../../../useCases/User/services/ShowUserService';
